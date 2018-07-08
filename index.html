@@ -10,8 +10,9 @@
     crossorigin="anonymous">
   <!-- Responsive meta tag -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- CSS -->
+  <link rel="stylesheet" href="asset/css/style.css">
   <title>Document</title>
-
 </head>
 
 <body>
@@ -78,7 +79,8 @@
     </div>
       <!-- Imagenes turistas -->
       <div class="row">
-        <div class="col-sm">
+        <div class="col-sm statemet">
+          <p class="h2 text-center">Testimonios</p>
           <div class="card-deck">
             <div class="card">
               <img class="card-img-top" src="asset/img/turist1.jpg" alt="Card image cap">
@@ -87,18 +89,12 @@
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content
                   is a little bit longer.</p>
               </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div>
             </div>
             <div class="card">
               <img class="card-img-top" src="asset/img/turist2.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
               </div>
             </div>
             <div class="card">
@@ -112,24 +108,27 @@
           </div>
         </div>
       </div>
-      <!-- contacto -->
-      <p class="h2 ">Contáctanos</p>
-      <!-- mail -->
-      <div class="input-group input-group-sm mb-3">
-          <div class="input-group-prepend">
-          </div>
-          <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-        </div>
-        <!-- clave -->
-        <div class="input-group input-group-sm mb-3">
-            <div class="input-group-prepend">
-            </div>
-            <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-          </div>
-      
+      <!-- Contacto -->
+      <section>
+          <form class="contact">
+              <p class="h2 text-center text-white">Contáctanos</p>
+              <div class="form-group text-white">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+              <div class="form-group text-white">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group form-check text-white">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Remember me</label>
+              </div>
+              <button type="submit" class="btn btn-light">Submit</button>
+            </form>
+      </section>
       <!-- footer -->
-      <footer>
-
+      <footer id="footer">
       </footer>
   </div> <!-- fin container -->
 
@@ -144,7 +143,5 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
-
 </body>
-
 </html>
